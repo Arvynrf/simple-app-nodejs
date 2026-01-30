@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.json({
     message: 'Hello from PM2 Deployment!',
     timestamp: new Date().toISOString(),
-    deployment: 'Traditional VM via Ansible'
+    deployment: 'Traditional VM via Ansibles'
   });
 });
 
